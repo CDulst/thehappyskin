@@ -1,29 +1,28 @@
-
-.section--profession{
-    margin-top:var(--spacerBig);
+.section--profession {
+    margin-top: var(--spacerBig);
 }
 
-
-.profession--container{
-height:60vh;
-min-height:600px;
-width:100%;
-display:flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
+.profession--container {
+    height: 60vh;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.academy{
+.academy {
     background-color: var(--colorSecondary);
     width: 48%;
 }
 
-.institute{
+.institute {
     background-color: var(--colorMain);
     width: 48%;
 }
-.profession--para{
+
+.profession--para {
     margin: 2rem 0;
-    width:65%;
+    width: 65%;
 }
