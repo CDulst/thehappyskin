@@ -520,6 +520,13 @@ line-height: 30px;
     color: var(--colorDark);
 }
 
+.button--header{
+    background-color: var(--colorAlt);
+    color: var(--colorWhite);
+    text-transform: lowercase;
+    padding:0;
+}
+
 .button--noborder:hover{
     color: var(--colorDark);
 }
@@ -538,7 +545,6 @@ width: 250px;
 }
 .logo--container{
 display:flex;
-justify-content: center;
 }
 .menu__items{
     display:flex;
@@ -547,11 +553,21 @@ justify-content: center;
 }
 .menu__item--link{
     text-decoration:none;
+    color:white;
+}
+
+.menu__item--link:hover{
+    color:white;
+    text-decoration: underline;
 }
 .navigator{
     display:flex;
     height:100%;
     align-items: center;
+}
+
+.search__input{
+    color:var(--colorAlt);
 }
 
 /* General styles */
