@@ -40,7 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class = "container">
+            <div class = "container-fluid headerOut" id = "header">
+            <div class = "container h-100">
                 <div class="row justify-content-between header--bottom">
                     <div class = "col-3 logo--container">
                         <img class = "logo--small invert"src="/images/logo-small.svg" alt="logo">
@@ -61,9 +62,10 @@
                     </div>
                 </div>
             </div>
+</div>
         </header>
         <main>
-            <section class = " section titlesection centerH centerV  flex">
+            <section class = " section titlesection centerH centerV flex" id = "title">
                 <h2 class = "titlesection--title white h1-like">
                 skin health attitude</h1>
                 <video class = "backgroundvideo" autoplay muted loop>
@@ -173,7 +175,9 @@
             <section class = "section section--testimonials centerH centerV column flex">
             </section>
         </main>
-        <script src = "js/app.js"></script>
+         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src = "js/app.js"></script>
     </body>
 </html>

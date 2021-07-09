@@ -1,4 +1,4 @@
-/* Function to move arrow of button left when hovering */
+/* Functions to move arrow of button left when hovering */
 
 .unhover {
     position: relative;
@@ -11,3 +11,19 @@
     left: 15px;
     transition: ease-in-out 0.3s all;
 }
+
+/* Functions to change between the 2 header states */
+
+.headerOut{
+     background-color:transparent;
+     height:100px;
+     transition: ease-in-out 0.3s all;
+}
+
+.headerIn{
+    background-color:var(--colorDark);
+    height:70px;
+    transition: ease-in-out 0.3s all;
+}
+
+

@@ -553,8 +553,8 @@ text-align:center;
 }
 
 .header--bottom {
-    height: 100px;
     position: relative;
+    height:100%;
     z-index: 1;
 }
 .header {
@@ -751,7 +751,7 @@ bottom:50px;
     background-color: var(--colorSecondary);
 }
 
-/* Function to move arrow of button left when hovering */
+/* Functions to move arrow of button left when hovering */
 
 .unhover {
     position: relative;
@@ -764,6 +764,22 @@ bottom:50px;
     left: 15px;
     transition: ease-in-out 0.3s all;
 }
+
+/* Functions to change between the 2 header states */
+
+.headerOut{
+     background-color:transparent;
+     height:100px;
+     transition: ease-in-out 0.3s all;
+}
+
+.headerIn{
+    background-color:var(--colorDark);
+    height:70px;
+    transition: ease-in-out 0.3s all;
+}
+
+
 
 /* General styles */
 

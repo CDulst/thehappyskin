@@ -69,7 +69,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "header": () => (/* binding */ header)
 /* harmony export */ });
-var header = function header() {};
+var header = function header() {
+  //Function that toggles classes
+  var toggle = function toggle(item, cls1, cls2) {
+    item.classList.toggle(cls1);
+    item.classList.toggle(cls2);
+  }; //Function that activates when scrolled
+
+
+  var handleScroll = function handleScroll() {
+    var header = document.querySelector("#header");
+    toggle(header, "headerOut", "headerIn");
+  }; //Checking scrollposition via scrollmagic
+
+
+  var controller = new ScrollMagic.Controller();
+  var headerTrigger = new ScrollMagic.Scene({
+    triggerElement: '#title',
+    // point of execution
+    offset: 800
+  }).addTo(controller);
+  headerTrigger.on("start", function (event) {
+    handleScroll();
+  });
+};
 
 /***/ }),
 
