@@ -7,6 +7,11 @@ line-height: 30px;
 letter-spacing: var(--spacingSmall);
 }
 
+p{
+margin-top:0;
+margin-bottom: 0;
+}
+
 
 h1, .h1-like {
 font-family:var(--fontBig);

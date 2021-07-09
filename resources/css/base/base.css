@@ -20,12 +20,16 @@ body {
     display: none;
 }
 
+ul{
+    list-style-type: none;
+    margin:0;
+}
 
 .main {
 
 }
 
-.white {
+.inver{
     filter:invert(1);
 }
 

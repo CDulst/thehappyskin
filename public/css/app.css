@@ -16,8 +16,8 @@
   --fontWeightBold: 800;
   --lineHeightSmall: 30px;
   --lineHeightBig: 31px;
-  --spacingSmall: 50px;
-  --spacingBig: 550px;
+  --spacingSmall: 0.8px;
+  --spacingBig: 9px;
   --spacingZero: 0px;
   --spacerBig: 160px;
   --spacerSmall: 80px;
@@ -45,12 +45,16 @@ body {
     display: none;
 }
 
+ul{
+    list-style-type: none;
+    margin:0;
+}
 
 .main {
 
 }
 
-.white {
+.inver{
     filter:invert(1);
 }
 
@@ -424,6 +428,11 @@ line-height: 30px;
 letter-spacing: var(--spacingSmall);
 }
 
+p{
+margin-top:0;
+margin-bottom: 0;
+}
+
 
 h1, .h1-like {
 font-family:var(--fontBig);
@@ -465,7 +474,88 @@ line-height: 30px;
 
 
 
+.button{
+    min-width: 160px;
+    width:-webkit-max-content;
+    width:-moz-max-content;
+    width:max-content;
+    height:50px;
+    background-color: var(--colorDark);
+    text-transform:uppercase;
+    text-decoration: none;
+    color:var(--colorWhite);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 30px;
+    cursor:pointer;
+}
 
+.button--normal:hover{
+    background-color: var(--colorAlt);
+    color:var(--colorWhite);
+}
+
+.button:hover{
+    color: var(--colorWhite);
+}
+
+.button--alt{
+    background-color: var(--colorWhite);
+    color: var(--colorDark);
+    border: 1px solid var(--colorDark);
+}
+
+.button--alt:hover{
+    color: var(--colorDark);
+}
+
+.button--dark{
+    background-color: transparent;
+    border: 1px solid var(--colorWhite);
+}
+
+.button--noborder{
+    background-color: var(--colorWhite);
+    color: var(--colorDark);
+}
+
+.button--noborder:hover{
+    color: var(--colorDark);
+}
+
+
+.header--top{
+background-color:var(--colorAlt);
+width:100%;
+height:50px;
+}
+.header--bottom{
+height:100px;
+}
+.logo--small{
+width: 250px;
+}
+.logo--container{
+display:flex;
+justify-content: center;
+}
+.menu__items{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+}
+.menu__item--link{
+    text-decoration:none;
+}
+.navigator{
+    display:flex;
+    height:100%;
+    align-items: center;
+}
 
 /* General styles */
+
+
+/* Components */
 

@@ -5,3 +5,7 @@
 @import 'base/typography.css';
 @import 'base/buttons.css';
 @import 'base/images.css';
+
+
+/* Components */
+@import 'components/header.css';
