@@ -636,14 +636,13 @@ text-align:center;
     flex-direction: column;
 }
 
-.backgroundvideo{
-position:absolute;
-Z-index:0;
-height:calc(100vh - 50px);
-width:100%;
-bottom:50px;
--o-object-fit: cover;
-   object-fit: cover;
+.backgroundvideo {
+    position: absolute;
+    Z-index: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .products {
@@ -751,6 +750,29 @@ bottom:50px;
     background-color: var(--colorSecondary);
 }
 
+.login {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer
+}
+
+.login--container {
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    z-index: 12;
+    position: absolute;
+    cursor: auto;
+}
+
 /* Functions to move arrow of button left when hovering */
 
 .unhover {
@@ -778,6 +800,22 @@ bottom:50px;
     height:70px;
     transition: ease-in-out 0.3s all;
 }
+
+/* Fade in and out */
+
+.fadeOut{
+     opacity: 0;
+     z-index:-1;
+     transition: ease-in-out 0.3s all;
+}
+
+.fadeIn{
+    opacity: 1;
+    z-index:7;
+    transition: ease-in-out 0.3s all;
+}
+
+
 
 
 

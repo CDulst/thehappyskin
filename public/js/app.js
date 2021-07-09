@@ -106,7 +106,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "loginpopup": () => (/* binding */ loginpopup)
 /* harmony export */ });
-var loginpopup = function loginpopup() {};
+var loginpopup = function loginpopup() {
+  var logincontainer = document.querySelector(".login");
+  var loginbutton = document.querySelector(".loginbutton"); //Function that toggles classes
+
+  var toggle = function toggle(item, cls1, cls2) {
+    item.classList.toggle(cls1);
+    item.classList.toggle(cls2);
+  };
+
+  var handleLogin = function handleLogin(e) {
+    console.log(e.currentTarget);
+    toggle(logincontainer, "fadeOut", "fadeIn");
+  }; //Check if press login button or login container
+
+
+  loginbutton.addEventListener("click", handleLogin);
+  logincontainer.addEventListener("click", handleLogin);
+};
 
 /***/ }),
 

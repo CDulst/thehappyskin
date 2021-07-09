@@ -1,16 +1,14 @@
 export const header = () => {
-
-
     //Function that toggles classes
-    const toggle = (item,cls1,cls2) => {
-    item.classList.toggle(cls1);
-    item.classList.toggle(cls2);
+    const toggle = (item, cls1, cls2) => {
+        item.classList.toggle(cls1);
+        item.classList.toggle(cls2);
     }
 
     //Function that activates when scrolled
     const handleScroll = () => {
-    const header = document.querySelector("#header");
-    toggle(header,"headerOut","headerIn");
+        const header = document.querySelector("#header");
+        toggle(header, "headerOut", "headerIn");
     }
 
     //Checking scrollposition via scrollmagic
@@ -22,7 +20,6 @@ export const header = () => {
     }).addTo(controller);
 
     headerTrigger.on("start", function (event) {
-    handleScroll();
+        handleScroll();
     });
-
 }
