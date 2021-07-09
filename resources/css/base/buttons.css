@@ -24,7 +24,7 @@
 }
 
 .button--alt {
-    background-color: var(--colorWhite);
+    background-color: transparent;
     color: var(--colorDark);
     border: 1px solid var(--colorDark);
 }

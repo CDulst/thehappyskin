@@ -1,0 +1,6 @@
+.section--testimonials{
+    margin-top: var(--spacerBig);
+    width:100%;
+    height:540px;
+    background-color:var(--colorSecondary);
+}

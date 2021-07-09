@@ -1,0 +1,29 @@
+
+.section--profession{
+    margin-top:var(--spacerBig);
+}
+
+
+.profession--container{
+height:60vh;
+min-height:600px;
+width:100%;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+}
+
+.academy{
+    background-color: var(--colorSecondary);
+    width: 48%;
+}
+
+.institute{
+    background-color: var(--colorMain);
+    width: 48%;
+}
+.profession--para{
+    margin: 2rem 0;
+    width:65%;
+}
