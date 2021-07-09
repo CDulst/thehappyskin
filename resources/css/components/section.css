@@ -1,8 +1,23 @@
 .titlesection {
-    height: calc(90vh - 150px);
+    height: calc(100vh - 50px);
     width: 100vw;
     position: relative;
-    z-index: 5;
+    top:50px;
+    left:0;
+    z-index: 1;
+}
+
+.section--history{
+    margin:var(--spacerSmall) 0;
+}
+
+.titlesection--title {
+    z-index:2;
+}
+
+.section--history-title{
+    max-width:850px;
+    margin-top:2rem;
 }
 
 .flex {
@@ -15,4 +30,8 @@
 
 .centerV {
     align-items: center;
+}
+
+.column{
+    flex-direction: column;
 }

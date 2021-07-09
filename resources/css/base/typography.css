@@ -47,6 +47,10 @@ font-weight: var(--fontWeightBold);
 line-height: 30px;
 }
 
+.aligncenter{
+text-align:center;
+}
+
 
 
 

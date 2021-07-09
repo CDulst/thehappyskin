@@ -11,6 +11,7 @@
         <title>thehappyskin</title>
     </head>
     <body>
+    <h1 class = "hidden">TheHappySkin</h1>
         <header class = "header">
             <div class="container-fluid header--top">
                 <div class = "container h-100">
@@ -23,6 +24,7 @@
                         </div>
                         <div class = "col-6 h-100">
                             <nav class = "navigator">
+                            <h2 class = "hidden">navigatorTop</h2>
                                 <ul class = "menu__items">
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Magazine</a></li>
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Events</a></li>
@@ -45,6 +47,7 @@
                     </div>
                     <div class = "col-9">
                         <nav class = "navigator">
+                        <h2 class = "hidden">navigatorBottom</h2>
                             <ul class = "menu__items">
                                 <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Merken</a></li>
                                 <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Skin health attitude</a></li>
@@ -60,12 +63,62 @@
             </div>
         </header>
         <main>
-            <video class = "backgroundvideo" autoplay muted loop>
+            <section class = " section titlesection centerH centerV  flex">
+                <h2 class = "titlesection--title white h1-like">skin health attitude</h1>
+                <video class = "backgroundvideo" autoplay muted loop>
                 <source src="videos/background.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <section class = "section titlesection centerH centerV  flex">
-                <h1 class = "white">skin health attitude</h1>
+            </section>
+            <section class = " section section--history centerH centerV column flex">
+                <h2 class = " hidden">history</h2>
+                <img src="images/logo-detail.svg" alt="">
+                <p class = "aligncenter section--history-title h4-like">sinds 1992 exclusieve distributeur in de Benelux en Frankrijk van Environ, Jane Iredale en Advanced nutrition programme</p>
+            </section>
+            <section class = " section section--products centerH centerV column flex">
+                <h2 class = " hidden">products</h2>
+                <div class = "container">
+                <div class = "row gx-5 products">
+                <div class = "col prodflex">
+                <div class = "product">
+                <div class = "product--container">
+                <div class = "product--container-image">
+                </div>
+                <p>Maak je huid van binnenuit gezond, door ze – letterlijk – te voeden met de juiste bouwstoffen uit het Advanced Nutrition Programme (ANP). </p>
+                <a class = "button button--normal">
+                <p class = "button--text">More Info</p>
+                <span class="iconify" data-inline="false" data-icon="bi:arrow-right" style="margin-left:10px; font-size: 16px;"></span>
+                </a>
+                </div>
+                </div>
+                </div>
+                <div class = "col">
+                <div class = "product product--flexend">
+                <div class = "product--container">
+                <div class = "product--container-image">
+                </div>
+                <p>De producten van Environ bevatten vitamine A, die je huidcellen verzorgt en herstelt. De helende werking van vitamine A is wetenschappelijk bewezen.</p>
+                <a class = "button button--normal">
+                <p class = "button--text">More Info</p>
+                <span class="iconify" data-inline="false" data-icon="bi:arrow-right" style="margin-left:10px; font-size: 16px;"></span>
+                </a>
+                </div>
+                </div>
+                </div>
+                <div class = "col">
+                <div class = "product">
+                <div class = "product--container">
+                <div class = "product--container-image">
+                </div>
+                <p>Jane Iredale is dé referentie op vlak van minerale make-up. Werk je stralend gezonde huid af met de juiste accenten.</p>
+                <a class = "button button--normal">
+                <p class = "button--text">More Info</p>
+                <span class="iconify" data-inline="false" data-icon="bi:arrow-right" style="margin-left:10px; font-size: 16px;"></span>
+                </a>
+                </div>
+                </div>
+                </div>
+                </div>
             </section>
         </main>
         <script src = "js/app.js"></script>

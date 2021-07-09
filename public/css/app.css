@@ -51,7 +51,7 @@ ul{
 }
 
 .main {
-
+   height:200000px;
 }
 
 .invert{
@@ -474,6 +474,10 @@ font-weight: var(--fontWeightBold);
 line-height: 30px;
 }
 
+.aligncenter{
+text-align:center;
+}
+
 
 
 
@@ -540,7 +544,6 @@ line-height: 30px;
 
 
 
-Beautified CSS:
 .header--top {
     background-color: var(--colorAlt);
     width: 100%;
@@ -552,7 +555,13 @@ Beautified CSS:
     position: relative;
     z-index: 1;
 }
-
+.header{
+    position:absolute;
+    top:0;
+    width:100%;
+    left:0;
+    z-index:2;
+}
 .logo--small {
     width: 250px;
 }
@@ -588,10 +597,25 @@ Beautified CSS:
 }
 
 .titlesection {
-    height: calc(90vh - 150px);
+    height: calc(100vh - 50px);
     width: 100vw;
     position: relative;
-    z-index: 5;
+    top:50px;
+    left:0;
+    z-index: 1;
+}
+
+.section--history{
+    margin:var(--spacerSmall) 0;
+}
+
+.titlesection--title {
+    z-index:2;
+}
+
+.section--history-title{
+    max-width:850px;
+    margin-top:2rem;
 }
 
 .flex {
@@ -606,15 +630,56 @@ Beautified CSS:
     align-items: center;
 }
 
+.column{
+    flex-direction: column;
+}
+
 .backgroundvideo{
 position:absolute;
 Z-index:0;
 height:calc(100vh - 50px);
 width:100%;
-bottom:0;
+
 -o-object-fit: cover;
+
    object-fit: cover;
 }
+
+.products{
+    height: 90vh;
+    min-height:800px;
+}
+
+.product{
+    height:100%;
+    display:flex;
+
+}
+
+.product--flexend{
+    align-items: flex-end;
+}
+
+.product--container{
+    height:80%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product--container-image{
+    height:65%;
+    width:100%;
+    background-image:url("/images/product-image.png");
+    background-size:cover;
+
+}
+
+.prodflex{
+
+}
+
 
 /* General styles */
 

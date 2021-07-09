@@ -1,5 +1,4 @@
 
-Beautified CSS:
 .header--top {
     background-color: var(--colorAlt);
     width: 100%;
@@ -11,7 +10,13 @@ Beautified CSS:
     position: relative;
     z-index: 1;
 }
-
+.header{
+    position:absolute;
+    top:0;
+    width:100%;
+    left:0;
+    z-index:2;
+}
 .logo--small {
     width: 250px;
 }

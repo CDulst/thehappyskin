@@ -1,0 +1,35 @@
+.products{
+    height: 90vh;
+    min-height:800px;
+}
+
+.product{
+    height:100%;
+    display:flex;
+
+}
+
+.product--flexend{
+    align-items: flex-end;
+}
+
+.product--container{
+    height:80%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product--container-image{
+    height:65%;
+    width:100%;
+    background-image:url("/images/product-image.png");
+    background-size:cover;
+
+}
+
+.prodflex{
+
+}
+

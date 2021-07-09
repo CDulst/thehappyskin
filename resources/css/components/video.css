@@ -3,6 +3,6 @@ position:absolute;
 Z-index:0;
 height:calc(100vh - 50px);
 width:100%;
-bottom:0;
+
 object-fit: cover;
 }
