@@ -9,3 +9,5 @@
 
 /* Components */
 @import 'components/header.css';
+@import 'components/section.css';
+@import 'components/video.css';

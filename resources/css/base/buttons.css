@@ -1,54 +1,55 @@
-.button{
+
+.button {
     min-width: 160px;
-    width:max-content;
-    height:50px;
+    width: max-content;
+    height: 50px;
     background-color: var(--colorDark);
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-decoration: none;
-    color:var(--colorWhite);
+    color: var(--colorWhite);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0px 30px;
-    cursor:pointer;
+    padding: 0px 30px;
+    cursor: pointer;
 }
 
-.button--normal:hover{
+.button--normal:hover {
     background-color: var(--colorAlt);
-    color:var(--colorWhite);
-}
-
-.button:hover{
     color: var(--colorWhite);
 }
 
-.button--alt{
+.button:hover {
+    color: var(--colorWhite);
+}
+
+.button--alt {
     background-color: var(--colorWhite);
     color: var(--colorDark);
     border: 1px solid var(--colorDark);
 }
 
-.button--alt:hover{
+.button--alt:hover {
     color: var(--colorDark);
 }
 
-.button--dark{
+.button--dark {
     background-color: transparent;
     border: 1px solid var(--colorWhite);
 }
 
-.button--noborder{
+.button--noborder {
     background-color: var(--colorWhite);
     color: var(--colorDark);
 }
 
-.button--header{
+.button--header {
     background-color: var(--colorAlt);
     color: var(--colorWhite);
     text-transform: lowercase;
-    padding:0;
+    padding: 0;
 }
 
-.button--noborder:hover{
+.button--noborder:hover {
     color: var(--colorDark);
 }

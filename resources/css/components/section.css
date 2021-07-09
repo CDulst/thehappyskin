@@ -1,0 +1,18 @@
+.titlesection {
+    height: calc(90vh - 150px);
+    width: 100vw;
+    position: relative;
+    z-index: 5;
+}
+
+.flex {
+    display: flex;
+}
+
+.centerH {
+    justify-content: center;
+}
+
+.centerV {
+    align-items: center;
+}

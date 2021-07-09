@@ -29,8 +29,14 @@ ul{
 
 }
 
-.inver{
-    filter:invert(1);
+.invert{
+
+
+filter: brightness(0) invert(1);
+}
+
+.white{
+    color:var(--colorWhite);
 }
 
 h2,
