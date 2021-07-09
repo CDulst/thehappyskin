@@ -1,7 +1,7 @@
 /* General styles */
-@import 'base/base.scss';
-@import 'base/normalize.scss';
-@import 'base/typography.scss';
-@import 'base/buttons.scss';
-@import 'base/images.scss';
-@import 'base/vars.scss';
+@import 'base/vars.css';
+@import 'base/base.css';
+@import 'base/normalize.css';
+@import 'base/typography.css';
+@import 'base/buttons.css';
+@import 'base/images.css';

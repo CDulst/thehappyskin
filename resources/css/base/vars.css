@@ -1,0 +1,24 @@
+:root {
+  --colorMain: #F3EFEF ;
+  --colorSecondary: #ECD7C5 ;
+  --colorAlt: #4B4947;
+  --colorDark: #332E2E;
+  --colorWhite: #FFF;
+  --fontSizeXSmall:16px;
+  --fontSizeSmall:18px;
+  --fontSizeRegular:45px;
+  --fontSizeMedium:60px;
+  --fontSizeBig:90px;
+  --fontSmall: "Open Sans";
+  --fontBig: "Playfair Display";
+  --fontWeightSmall: 300;
+  --fontWeightRegular: 500 ;
+  --fontWeightBold: 800;
+  --lineHeightSmall: 30px;
+  --lineHeightBig: 31px;
+  --spacingSmall: 50px;
+  --spacingBig: 550px;
+  --spacingZero: 0px;
+  --spacerBig: 160px;
+  --spacerSmall: 80px;
+}

@@ -1,0 +1,49 @@
+
+body {
+font-family: var(--fontSmall);
+font-size: var(--fontSizeXSmall);
+font-weight: var(--fontWeightSmall);
+line-height: 30px;
+letter-spacing: var(--spacingSmall);
+}
+
+
+h1, .h1-like {
+font-family:var(--fontBig);
+font-size: var(--fontSizeBig);
+font-weight: var(--fontWeightRegular);
+letter-spacing: var(--spacingZero);
+}
+
+h2, .h2-like{
+font-family:var(--fontBig);
+font-size: var(--fontSizeMedium);
+font-weight: var(--fontWeightRegular);
+letter-spacing: var(--spacingZero);
+}
+
+h3,.h3-like{
+font-family:var(--fontBig);
+font-size: var(--fontSizeRegular);
+font-weight: var(--fontWeightRegular);
+letter-spacing: var(--spacingZero);
+}
+
+h4,.h4-like{
+font-size: var(--fontSizeSmall);
+font-weight: var(--fontWeightSmall);
+line-height: 31px;
+letter-spacing: var(--spacingBig);
+}
+
+h5,.h5-like{
+font-size: var(--fontSizeXSmall);
+font-weight: var(--fontWeightBold);
+line-height: 30px;
+}
+
+
+
+
+
+
