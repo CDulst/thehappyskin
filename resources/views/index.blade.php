@@ -27,7 +27,7 @@
                             </a>
                         </div>
                         <div class = "col-6 h-100">
-                            <nav class = "navigator">
+                            <nav class = "navigator topnav">
                                 <h2 class = "hidden">navigatorTop</h2>
                                 <ul class = "menu__items">
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Magazine</a></li>
@@ -50,8 +50,8 @@
                         <div class = "col-3 logo--container">
                             <img class = "logo--small invert"src="/images/logo-small.svg" alt="logo">
                         </div>
-                        <div class = "col-9">
-                            <nav class = "navigator">
+                        <div class = "col-9 justify-content-end">
+                            <nav class = "navigator bottomnav">
                                 <h2 class = "hidden">navigatorBottom</h2>
                                 <ul class = "menu__items">
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Merken</a></li>
@@ -62,6 +62,9 @@
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Professional</a></li>
                                     <li class = "menu__item"><a href="javascript:void(0)" class = "menu__item--link">Contact me</a></li>
                                 </ul>
+                                <div class = "hamburger">
+                                <span class="iconify invert" data-inline="false" data-icon="icon-park:hamburger-button" style="font-size: 48px;"></span>
+                                </div>
                             </nav>
                         </div>
                     </div>
