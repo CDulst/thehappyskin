@@ -751,6 +751,20 @@ bottom:50px;
     background-color: var(--colorSecondary);
 }
 
+/* Function to move arrow of button left when hovering */
+
+.unhover {
+    position: relative;
+    left: 5px;
+    transition: ease-in-out 0.3s all;
+}
+
+.hover{
+    position: relative;
+    left: 15px;
+    transition: ease-in-out 0.3s all;
+}
+
 /* General styles */
 
 
